@@ -163,21 +163,15 @@
 }
 .about .jobs {
   width: 60vw;
-  margin: 2rem auto 0 aout;
+  margin: 2rem auto 0 auto;
   display: grid;
-  grid-gap: 2rem;
   grid-template-columns: 1fr;
+  grid-gap: 2rem;
 }
 .about .jobs__job {
   background: #414141;
   padding: 0.5rem;
   border-bottom: 5px solid #ff652f;
-}
-.about .jobs__job h2, .about .jobs__job h3 {
-  margin: 0.5rem 0;
-}
-.about .jobs__job h6 {
-  margin: 0.3rem 0;
 }
 .about .social-icon {
   display: flex;
