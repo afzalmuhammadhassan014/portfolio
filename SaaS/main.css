@@ -173,12 +173,27 @@
   padding: 0.5rem;
   border-bottom: 5px solid #ff652f;
 }
+.about .jobs__job ul {
+  list-style: none;
+}
+.about .jobs h2, .about .jobs h3 {
+  margin: 0.5rem 0;
+}
+.about .jobs h6 {
+  margin: 0.3rem 0;
+}
 .about .social-icon {
   display: flex;
   flex-direction: column;
 }
 .about footer {
   transform: rotate(90deg) translate(-3rem, -5rem);
+}
+
+.highlights {
+  color: #ff652f;
+  font-weight: bold;
+  margin-right: 1rem;
 }
 
 body {

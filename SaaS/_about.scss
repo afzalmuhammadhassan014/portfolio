@@ -38,6 +38,15 @@
             background: lighten($primary-color, 10%);
             padding: 0.5rem;
             border-bottom: 5px solid $secondary-color;
+            ul{
+                list-style: none;
+            }
+        }
+        h2,h3{
+            margin: 0.5rem 0;
+        }
+        h6{
+            margin: 0.3rem 0;
         }
     }
     .social-icon{
@@ -49,4 +58,9 @@
         rotate(90deg)
         translate(-3rem,-5rem);
     }
+}
+.highlights{
+    color: $secondary-color;
+    font-weight: bold;
+    margin-right: 1rem;
 }
